@@ -1,0 +1,22 @@
+{
+    "wrapperType": "collection",
+    "collectionType": "Album",
+    "artistId": 136975,
+    "collectionId": 1445522423,
+    "amgArtistId": 3644,
+    "artistName": "The Beatles",
+    "collectionName": "Live at the BBC",
+    "collectionCensoredName": "Live at the BBC",
+    "artistViewUrl": "https://music.apple.com/us/artist/the-beatles/136975?uo=4",
+    "collectionViewUrl": "https://music.apple.com/us/album/live-at-the-bbc/1445522423?uo=4",
+    "artworkUrl60": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/b5/48/3b/b5483b47-bcb3-dc0c-a42b-7546ee5d5c69/source/60x60bb.jpg",
+    "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/b5/48/3b/b5483b47-bcb3-dc0c-a42b-7546ee5d5c69/source/100x100bb.jpg",
+    "collectionPrice": 29.99,
+    "collectionExplicitness": "notExplicit",
+    "trackCount": 71,
+    "copyright": "This Compilation ℗ 2013 The copyright in this sound recording is owned by BBC under exclusive licence to Calderstone Productions Limited (a division of Universal Music Group)",
+    "country": "USA",
+    "currency": "USD",
+    "releaseDate": "2013-11-08T08:00:00Z",
+    "primaryGenreName": "Rock"
+}

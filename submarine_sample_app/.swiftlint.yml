@@ -1,0 +1,24 @@
+disabled_rules:
+  - function_parameter_count
+  - nesting
+  - identifier_name
+  - weak_delegate
+  - trailing_comma
+  - trailing_whitespace
+  - trailing_newline
+  - mark
+  - large_tuple
+  - block_based_kvo
+opt_in_rules:
+  - empty_count
+  - force_unwrapping
+  - private_outlet
+line_length: 180
+type_body_length:
+  warning: 300
+  error: 400
+excluded:
+  - Pods
+  - ItunesExampleTests
+  - ItunesExampleUITests
+reporter: "xcode"

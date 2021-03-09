@@ -1,0 +1,44 @@
+/* 
+  Localizable.strings
+  ItunesExample
+
+  Created by Roman Filippov on 23.01.2021.
+  
+*/
+
+// Common
+"Error!" = "Error!";
+
+// Onboarding
+
+"Sign In" = "Sign In";
+"Sign Up" = "Sign Up";
+"email" = "email";
+"password" = "password";
+"username" = "username";
+"SUBMARINE" = "SUBMARINE";
+
+// AppError descriptions
+"Unknown error" = "Unknown error";
+"App documents directory not found" = "App documents directory not found";
+"Wrong username or password" = "Wrong username or password";
+"Invalid credentials entered" = "Invalid credentials entered";
+
+// ErrorMessage strings
+"Sign In Failed" = "Sign In Failed";
+"Sign Up Failed" = "Sign Up Failed";
+"Could not sign in.\nPlease try again." = "Could not sign in.\nPlease try again.";
+"Could not sign up.\nPlease try again." = "Could not sign up.\nPlease try again.";
+"Sign In Error" = "Sign In Error";
+"Sorry, we couldn't determine if you are already signed in. Please sign in or sign up." = "Sorry, we couldn't determine if you are already signed in. Please sign in or sign up.";
+
+// Search screen
+"Search" = "Search";
+"Nothing to show..." = "Nothing to show...";
+"Search Albums" = "Search Albums";
+
+// Album details
+"Details" = "Details";
+"Loading track list..." = "Loading track list...";
+"No tracks to show..." = "No tracks to show...";
+"No title" = "No title";

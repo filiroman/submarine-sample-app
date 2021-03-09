@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="bW4-jJ-gTW">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SUBMARINE" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O34-Kt-ZYa">
+                                <rect key="frame" x="68" y="308.5" width="239.5" height="50.5"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="42"/>
+                                <color key="textColor" red="0.95686274510000002" green="0.83137254900000002" blue="0.2901960784" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sample iOS App" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="onJ-97-QUW">
+                                <rect key="frame" x="94.5" y="359" width="186" height="30"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Italic" family="Helvetica Neue" pointSize="25"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="by Roman Filippov" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZRq-PI-rZ8">
+                                <rect key="frame" x="87.5" y="607" width="200" height="30"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="25"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="appLogo" translatesAutoresizingMaskIntoConstraints="NO" id="Fth-6T-djk">
+                                <rect key="frame" x="127.5" y="168.5" width="120" height="120"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="4eV-5h-zqO"/>
+                        <color key="backgroundColor" red="0.12549019610000001" green="0.1333333333" blue="0.1450980392" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="ZRq-PI-rZ8" firstAttribute="centerX" secondItem="bW4-jJ-gTW" secondAttribute="centerX" id="DpG-Ib-5k7"/>
+                            <constraint firstItem="O34-Kt-ZYa" firstAttribute="centerY" secondItem="bW4-jJ-gTW" secondAttribute="centerY" id="IdB-Fa-9Fv"/>
+                            <constraint firstItem="O34-Kt-ZYa" firstAttribute="centerX" secondItem="bW4-jJ-gTW" secondAttribute="centerX" id="LAl-d6-4Vp"/>
+                            <constraint firstItem="Fth-6T-djk" firstAttribute="centerX" secondItem="bW4-jJ-gTW" secondAttribute="centerX" id="Ti6-Pn-yEt"/>
+                            <constraint firstItem="O34-Kt-ZYa" firstAttribute="top" secondItem="Fth-6T-djk" secondAttribute="bottom" constant="20" id="XEH-64-bE9"/>
+                            <constraint firstItem="4eV-5h-zqO" firstAttribute="bottom" secondItem="ZRq-PI-rZ8" secondAttribute="bottom" constant="30" id="bcG-ot-hCi"/>
+                            <constraint firstItem="onJ-97-QUW" firstAttribute="top" secondItem="O34-Kt-ZYa" secondAttribute="bottom" id="e3n-2d-OxJ"/>
+                            <constraint firstItem="onJ-97-QUW" firstAttribute="centerX" secondItem="bW4-jJ-gTW" secondAttribute="centerX" id="g4H-g5-yOm"/>
+                            <constraint firstItem="Fth-6T-djk" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="4eV-5h-zqO" secondAttribute="leading" constant="50" id="wDS-uJ-fR1"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="appLogo" width="120" height="120"/>
+    </resources>
+</document>
